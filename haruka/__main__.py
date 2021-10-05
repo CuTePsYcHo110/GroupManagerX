@@ -20,22 +20,18 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START = """Hello {}, my name is {}!
+PM_START = """Hey there {}, my name is {}!
 
-You know how hard it is sometimes to manage group so here is the solution for you
+You know how hard it is sometimes to manage group so here is the solution for you !
 
 I'm group manager bot and Anti-spam for RR Players🃏
 
 Activate Anti-spam protection in your BM by this command : 
 /antispam on 
 
-Made from the source code of [Aditya 🇮🇳](t.me/xditya)
+Made from the source code of [CuTePsYcHo_110👻](t.me/CuTePsYcHo_110)
 
-Special thanks to [this person](t.me/denver02) for helping me.
-
-Deploy a bot like me [now](www.github.com/xditya/GroupManager)
-
-Watch [video tutorial](https://www.youtube.com/watch?v=gXXFpTAk6Vo&feature=youtu.be) on deploying me.
+Deploy a bot like me now ![Click Here](www.github.com/xdityaCuTePsYcHo_110/GroupManagerX)
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 
@@ -157,7 +153,7 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START
 
-    keyboard = [[InlineKeyboardButton(text="🇮🇳 Language", callback_data="set_lang_")]]
+    keyboard = [[InlineKeyboardButton(text= 👻 Language", callback_data="set_lang_")]]
     keyboard += [[InlineKeyboardButton(text="🛠 Reporting", callback_data="cntrl_panel_M"), 
         InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]
 
